@@ -166,3 +166,44 @@ footer .box .btnBox .btn:hover {opacity: 1}
 footer .copyright{flex-direction: row; text-align: center; padding-top: 25px; font-size: 14px; margin-bottom: 30px;}
 
 
+@media (max-width: 1440px) {
+  .inner{width:85%;}
+  h1.title{font-size:120px;line-height:1.1;}
+  h1.title span{font-size:26px;}
+  .animated-text{font-size:13vw;letter-spacing:-16px;}
+  .about .profile-right .imgBox img{width:460px;height:auto;}
+  .project-grid{gap:35px;}
+}
+
+
+@media (max-width: 500px) {
+  .inner{width:92%;}
+  section{padding-top:90px;}
+  header{top:15px;}
+  .logo{font-size:18px;margin-top:20px;}
+  .gnb{display:none;}
+  h1.title{font-size:56px;line-height:1.05;margin-bottom:50px;}
+  h1.title span{font-size:16px;}
+  .main{align-items:flex-end;padding-bottom:30px;}
+  .animated-text{font-size:24vw;letter-spacing:-6px;transform:none;}
+  .sub-text{position:static;width:100%;margin-top:20px;font-size:15px;opacity:1;}
+  .marquee{padding-top:180px;}
+  .marquee span{font-size:72px;-webkit-text-stroke:1px #fff;}
+  .about{height:auto;}
+  .about .profile{flex-direction:column;gap:60px;}
+  .about .profile-left h2{font-size:28px;margin-top:30px;}
+  .about .profile-right .imgBox img{width:100%;height:auto;}
+  .about .profile-bottom p{font-size:18px;}
+  .work{height:auto;}
+  .work .inner h1.title{text-align:left;}
+  .project-grid{grid-template-columns:1fr;gap:26px;}
+  .project-card{padding:26px 22px;}
+  .project-card .title{font-size:19px;}
+  .project-card .desc{font-size:16px;}
+  .question{height:auto;}
+  .faq-question{font-size:20px;}
+  .faq-answer{font-size:16px;}
+  footer .box .mainTextBox h2{font-size:56px;}
+}
+
+
