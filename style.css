@@ -165,7 +165,7 @@ footer .box .btnBox .btn {margin: 20px; padding: 10px; background: none; color: 
 footer .box .btnBox .btn:hover {opacity: 1}
 footer .copyright{flex-direction: row; text-align: center; padding-top: 25px; font-size: 14px; margin-bottom: 30px;}
 
-
+/* 반응형 */
 @media (max-width: 1512px) {
   .inner{width:85%;}
   h1.title{font-size:120px;line-height:1.1;}
